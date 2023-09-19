@@ -1,0 +1,15 @@
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Training\bin\Debug\net7.0\LibraryManagement.Training.deps.json
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Training\bin\Debug\net7.0\LibraryManagement.Training.dll
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Training\bin\Debug\net7.0\LibraryManagement.Training.pdb
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Training\obj\Debug\net7.0\LibraryManagement.Training.csproj.AssemblyReference.cache
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Training\obj\Debug\net7.0\LibraryManagement.Training.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Training\obj\Debug\net7.0\LibraryManagement.Training.AssemblyInfoInputs.cache
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Training\obj\Debug\net7.0\LibraryManagement.Training.AssemblyInfo.cs
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Training\obj\Debug\net7.0\LibraryManagement.Training.csproj.CoreCompileInputs.cache
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Training\obj\Debug\net7.0\LibraryManagement.Training.dll
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Training\obj\Debug\net7.0\refint\LibraryManagement.Training.dll
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Training\obj\Debug\net7.0\LibraryManagement.Training.pdb
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Training\obj\Debug\net7.0\ref\LibraryManagement.Training.dll
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Training\bin\Debug\net7.0\LibraryManagement.Data.dll
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Training\bin\Debug\net7.0\LibraryManagement.Data.pdb
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Training\obj\Debug\net7.0\LibraryManagement.Training.csproj.CopyComplete

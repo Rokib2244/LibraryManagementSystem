@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\MyProject\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagement.Training\\LibraryManagement.Training.csproj": {}
+  },
+  "projects": {
+    "E:\\MyProject\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagement.Data\\LibraryManagement.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\MyProject\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagement.Data\\LibraryManagement.Data.csproj",
+        "projectName": "LibraryManagement.Data",
+        "projectPath": "E:\\MyProject\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagement.Data\\LibraryManagement.Data.csproj",
+        "packagesPath": "C:\\Users\\Laptop Click\\.nuget\\packages\\",
+        "outputPath": "E:\\MyProject\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagement.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Laptop Click\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\MyProject\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagement.Training\\LibraryManagement.Training.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\MyProject\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagement.Training\\LibraryManagement.Training.csproj",
+        "projectName": "LibraryManagement.Training",
+        "projectPath": "E:\\MyProject\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagement.Training\\LibraryManagement.Training.csproj",
+        "packagesPath": "C:\\Users\\Laptop Click\\.nuget\\packages\\",
+        "outputPath": "E:\\MyProject\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagement.Training\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Laptop Click\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\MyProject\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagement.Data\\LibraryManagement.Data.csproj": {
+                "projectPath": "E:\\MyProject\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagement.Data\\LibraryManagement.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

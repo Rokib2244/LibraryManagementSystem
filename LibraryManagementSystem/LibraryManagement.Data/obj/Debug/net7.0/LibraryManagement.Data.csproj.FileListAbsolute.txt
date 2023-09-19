@@ -1,0 +1,12 @@
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Data\bin\Debug\net7.0\LibraryManagement.Data.deps.json
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Data\bin\Debug\net7.0\LibraryManagement.Data.dll
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Data\bin\Debug\net7.0\LibraryManagement.Data.pdb
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Data\obj\Debug\net7.0\LibraryManagement.Data.csproj.AssemblyReference.cache
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Data\obj\Debug\net7.0\LibraryManagement.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Data\obj\Debug\net7.0\LibraryManagement.Data.AssemblyInfoInputs.cache
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Data\obj\Debug\net7.0\LibraryManagement.Data.AssemblyInfo.cs
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Data\obj\Debug\net7.0\LibraryManagement.Data.csproj.CoreCompileInputs.cache
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Data\obj\Debug\net7.0\LibraryManagement.Data.dll
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Data\obj\Debug\net7.0\refint\LibraryManagement.Data.dll
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Data\obj\Debug\net7.0\LibraryManagement.Data.pdb
+E:\MyProject\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement.Data\obj\Debug\net7.0\ref\LibraryManagement.Data.dll
