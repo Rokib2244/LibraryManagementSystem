@@ -5,6 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using System.Linq.Dynamic.Core;
 
 namespace LibraryManagement.Data
 {
@@ -129,43 +130,43 @@ namespace LibraryManagement.Data
                     return (result.ToList(), total, totalDisplay);
             }
         }
-        //public virtual (IList<TEntity> data, int total, int totalDisplay) GetDynamic(Expression<Func<TEntity,
-        //    bool>> filter = null, string orderBy = null,
-        //    string includeProperties = "", int pageIndex = 1, int pageSize = 10, bool isTrackingOff = false)
-        //{
-        //    IQueryable<TEntity> query = _dbSet;
-        //    var total = query.Count();
-        //    var totalDisplay = query.Count();
+        public virtual (IList<TEntity> data, int total, int totalDisplay) GetDynamic(Expression<Func<TEntity,
+            bool>> filter = null, string orderBy = null,
+            string includeProperties = "", int pageIndex = 1, int pageSize = 10, bool isTrackingOff = false)
+        {
+            IQueryable<TEntity> query = _dbSet;
+            var total = query.Count();
+            var totalDisplay = query.Count();
 
-        //    if (filter != null)
-        //    {
-        //        query = query.Where(filter);
-        //        totalDisplay = query.Count();
-        //    }
+            if (filter != null)
+            {
+                query = query.Where(filter);
+                totalDisplay = query.Count();
+            }
 
-        //    foreach (var includeProperty in includeProperties.Split
-        //        (new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
-        //    {
-        //        query = query.Include(includeProperty);
-        //    }
+            foreach (var includeProperty in includeProperties.Split
+                (new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+            {
+                query = query.Include(includeProperty);
+            }
 
-        //    if (orderBy != null)
-        //    {
-        //        //var result = query.OrderBy(orderBy).Skip((pageIndex - 1) * pageSize).Take(pageSize);
-        //        //if (isTrackingOff)
-        //        //    return (result.AsNoTracking().ToList(), total, totalDisplay);
-        //        //else
-        //        //    return (result.ToList(), total, totalDisplay);
-        //    }
-        //    else
-        //    {
-        //        var result = query.Skip((pageIndex - 1) * pageSize).Take(pageSize);
-        //        if (isTrackingOff)
-        //            return (result.AsNoTracking().ToList(), total, totalDisplay);
-        //        else
-        //            return (result.ToList(), total, totalDisplay);
-        //    }
-        //}
+            if (orderBy != null)
+            {
+                var result = query.OrderBy(orderBy).Skip((pageIndex - 1) * pageSize).Take(pageSize);
+                if (isTrackingOff)
+                    return (result.AsNoTracking().ToList(), total, totalDisplay);
+                else
+                    return (result.ToList(), total, totalDisplay);
+            }
+            else
+            {
+                var result = query.Skip((pageIndex - 1) * pageSize).Take(pageSize);
+                if (isTrackingOff)
+                    return (result.AsNoTracking().ToList(), total, totalDisplay);
+                else
+                    return (result.ToList(), total, totalDisplay);
+            }
+        }
 
         public virtual IList<TEntity> Get(Expression<Func<TEntity, bool>>? filter = null,
             Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null,
@@ -203,7 +204,7 @@ namespace LibraryManagement.Data
         }
 
 
-        /*  public virtual IList<TEntity> GetDynamic(Expression<Func<TEntity, bool>> filter = null,
+          public virtual IList<TEntity> GetDynamic(Expression<Func<TEntity, bool>> filter = null,
               string orderBy = null, string includeProperties = "", bool isTrackingOff = false)
           {
               IQueryable<TEntity> query = _dbSet;
@@ -221,12 +222,12 @@ namespace LibraryManagement.Data
 
               if (orderBy != null)
               {
-                  //var result = query.OrderBy(orderBy);
+                  var result = query.OrderBy(orderBy);
 
-                  //if (isTrackingOff)
-                  //    return result.AsNoTracking().ToList();
-                  //else
-                  //    return result.ToList();
+                  if (isTrackingOff)
+                      return result.AsNoTracking().ToList();
+                  else
+                      return result.ToList();
               }
               else
               {
@@ -236,6 +237,6 @@ namespace LibraryManagement.Data
                       return query.ToList();
               }
 
-          }*/
+          }
     }
 }

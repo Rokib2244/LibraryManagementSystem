@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement.Training.Repositories
 {
-    public class UserRepository : Repository<User, Guid>, IUserRepository
+    public class UserRepository : Repository<Member, Guid>, IUserRepository
     {
         public UserRepository(DbContext context) : base(context)
         {

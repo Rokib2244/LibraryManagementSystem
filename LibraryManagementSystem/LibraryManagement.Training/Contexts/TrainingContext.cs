@@ -30,11 +30,17 @@ namespace LibraryManagement.Training.Contexts
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //one to many relationship
+            ////one to many relationship
             //modelBuilder.Entity<Category>()
             //    .HasMany(p => p.Products)
             //    .WithOne(c => c.Category)
             //    .HasForeignKey(c => c.CategoryId);
+
+            //one to many relationship
+            modelBuilder.Entity<Member>()
+                .HasMany(u => u.Orders)
+                .WithOne(o => o.User)
+                .HasForeignKey(o => o.UserId);
 
 
             //modelBuilder.Entity<ProductCustomers>()
@@ -52,6 +58,7 @@ namespace LibraryManagement.Training.Contexts
 
             base.OnModelCreating(modelBuilder);
         }
-        public DbSet<User> Users { get; set; }
+        public DbSet<Member> Users { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }

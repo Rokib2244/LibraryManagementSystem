@@ -24,17 +24,17 @@ namespace LibraryManagement.Data
             Expression<Func<TEntity, bool>>? filter = null,
             Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null,
             string includeProperties = "", int pageIndex = 1, int pageSize = 10, bool isTrackingOff = false);
-        //(IList<TEntity> data, int total, int totalDisplay) GetDynamic(
-        //    Expression<Func<TEntity, bool>> filter = null,
-        //    string orderBy = null,
-        //    string includeProperties = "", int pageIndex = 1, int pageSize = 10, bool isTrackingOff = false);
+        (IList<TEntity> data, int total, int totalDisplay) GetDynamic(
+            Expression<Func<TEntity, bool>> filter = null,
+            string orderBy = null,
+            string includeProperties = "", int pageIndex = 1, int pageSize = 10, bool isTrackingOff = false);
 
         IList<TEntity> Get(Expression<Func<TEntity, bool>>? filter = null,
             Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null,
             string includeProperties = "", bool isTrackingOff = false);
 
-        //IList<TEntity> GetDynamic(Expression<Func<TEntity, bool>> filter = null,
-        //    string orderBy = null,
-        //    string includeProperties = "", bool isTrackingOff = false);
+        IList<TEntity> GetDynamic(Expression<Func<TEntity, bool>> filter = null,
+            string orderBy = null,
+            string includeProperties = "", bool isTrackingOff = false);
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+KQB5AA+TjkOEGq+q7RLYamQx4KmM9ACbfi4tXV0OLo9ZoUJgIqWdLBLri0l0RI4XQSWdnn7Ene6hkholyK69Q==",
+  "dgSpecHash": "GciULBJEibu0eBIPUIYwaXAUCatBatphkDKZ1034pB60C7sr867V/35N7fcmLFpo2uq298SlwrMpxoHiROv8YQ==",
   "success": true,
   "projectFilePath": "E:\\MyProject\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagement.Data\\LibraryManagement.Data.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,8 @@
     "C:\\Users\\Laptop Click\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Laptop Click\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\Laptop Click\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "C:\\Users\\Laptop Click\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    "C:\\Users\\Laptop Click\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\Laptop Click\\.nuget\\packages\\system.linq.dynamic.core\\1.3.5\\system.linq.dynamic.core.1.3.5.nupkg.sha512"
   ],
   "logs": []
 }
