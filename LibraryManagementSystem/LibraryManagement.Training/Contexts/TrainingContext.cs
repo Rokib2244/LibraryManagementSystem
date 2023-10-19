@@ -37,10 +37,10 @@ namespace LibraryManagement.Training.Contexts
             //    .HasForeignKey(c => c.CategoryId);
 
             //one to many relationship
-            modelBuilder.Entity<Member>()
-                .HasMany(u => u.Orders)
-                .WithOne(o => o.User)
-                .HasForeignKey(o => o.UserId);
+            //modelBuilder.Entity<User>()
+            //    .HasMany(u => u.Orders)
+            //    .WithOne(o => o.User)
+            //    .HasForeignKey(o => o.UserId);
 
 
             //modelBuilder.Entity<ProductCustomers>()
@@ -58,7 +58,7 @@ namespace LibraryManagement.Training.Contexts
 
             base.OnModelCreating(modelBuilder);
         }
-        public DbSet<Member> Users { get; set; }
-        public DbSet<Order> Orders { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Book> Books { get; set; }
     }
 }

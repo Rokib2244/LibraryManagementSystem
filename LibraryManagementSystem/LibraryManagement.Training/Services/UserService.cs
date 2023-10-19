@@ -19,21 +19,21 @@ namespace LibraryManagement.Training.Services
             _mapper = mapper;   
         }
 
-        public void CreateUser(Member user)
+        public void CreateUser(User user)
         {
             throw new NotImplementedException();
             if(user == null)
             {
                 throw new InvalidOperationException("User was not found");
             }
-            _trainingUnitOfWork.Users.Add(_mapper.Map<Entities.Member>(user));
+            _trainingUnitOfWork.Users.Add(_mapper.Map<Entities.User>(user));
             _trainingUnitOfWork.Save();
         }
 
-        public IList<Member> GetUsers()
+        public IList<User> GetUsers()
         {
            var userData= _trainingUnitOfWork.Users.GetAll();
-            var resultData = (from user in userData select _mapper.Map<Member>(user)).ToList();
+            var resultData = (from user in userData select _mapper.Map<User>(user)).ToList();
             return resultData;
             //throw new NotImplementedException();
         }

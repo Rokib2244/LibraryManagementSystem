@@ -39,8 +39,4 @@
     <ProjectReference Include="..\LibraryManagement.Training\LibraryManagement.Training.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\User\" />
-  </ItemGroup>
-
 </Project>

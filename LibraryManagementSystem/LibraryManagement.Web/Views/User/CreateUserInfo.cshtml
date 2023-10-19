@@ -1,0 +1,66 @@
+﻿@model CreateUserModel
+@{
+    ViewData["Title"] = "CreateUserInfo";
+}
+
+
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h2>Create A New User</h2>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Create New User</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+<section class="content">
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <!-- general form elements -->
+            <div class="card card-primary">
+                <div class="card-header">
+                    <h3 class="card-title">Create New User</h3>
+                </div>
+                <!-- /.card-header -->
+                <!-- form start -->
+                <form method="post" asp-controller="User" asp-action="CreateUserInfo" asp-antiforgery="true">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label asp-for="Id" class="col-form-label">User Id</label>
+                            <input type="text" class="form-control is-valid" asp-for="Id" id="id" placeholder="Id" readonly="true">
+                            <label asp-for="ContactNumber" class="col-form-label">Contact Number</label>
+                            <input type="text" class="form-control is-valid" asp-for="ContactNumber" id="contactNumber" placeholder="Contact Number">
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="UserName" class="col-form-label">UserName</label>
+                            <input type="text" class="form-control is-valid" asp-for="UserName" id="userName" placeholder="User Name">
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="BirthDate" class="col-form-label">BirthDate</label>
+                            <input type="datetime" class="form-control is-valid" asp-for="BirthDate" id="birthDate" placeholder="BirthDate">
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Gender" class="col-form-label">Gender</label>
+                            <input type="text" class="form-control is-valid" asp-for="Gender" id="gender" placeholder="Gender">
+                        </div>
+
+                    </div>
+                    <!-- /.card-body -->
+
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-info">Create </button>
+                        @*<a asp-action="ShowAllProducts" asp-controller="Product" class="btn btn-default float-right">Cancel</a>*@
+                        <a asp-action="CreateUserInfo" asp-controller="User" class="btn btn-default float-right">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>

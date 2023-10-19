@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement.Training.Repositories
 {
-    public interface IUserRepository : IRepository<Member, Guid>
+    public interface IUserRepository : IRepository<User, Guid>
     {
     }
 }

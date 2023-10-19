@@ -13,8 +13,8 @@ namespace LibraryManagement.Training.Profiles
     {
         public TrainingProfile()
         {
-            CreateMap<EO.Member, BO.Member>();
-            CreateMap<EO.Member, BO.Member>().ForMember(x => x.UserAccount, opt => opt.Ignore());
+            CreateMap<EO.User, BO.User>();
+           // CreateMap<EO.User, BO.User>().ForMember(x => x.UserAccount, opt => opt.Ignore());
         }
     }
 }

@@ -9,7 +9,7 @@ namespace LibraryManagement.Training.Services
 {
     public interface IUserService
     {
-        void CreateUser(Member user);
-        IList<Member> GetUsers();
+        void CreateUser(User user);
+        IList<User> GetUsers();
     }
 }
